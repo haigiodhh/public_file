@@ -1,0 +1,71 @@
+{
+	"Data": {
+		"version": "1.0",
+		"menus": [
+			{
+				"tieu_de": "50 Truyện Nghe Nhiều Nhất",
+				"danh_sach_truyen_id": [
+					"181567_do_ta_khong_do_nang",
+					"181264_nhat_kiem_uy_thien_ky"
+				]
+			},
+			{
+				"tieu_de": "50 Truyện Hay Nhất Mọi Thời Đại",
+				"danh_sach_truyen_id": [
+					"181567_do_ta_khong_do_nang",
+					"181264_nhat_kiem_uy_thien_ky"
+				]
+			}
+		],
+		"the_loai_data": [
+			{
+				"ten_the_loai": "Chưa Xếp Loại",
+				"id_the_loai": "khong_the_loai_52679",
+				"image_the_loai": "https://steemitimages.com/DQmTRLJ4kX5aQfgdmVKWiQCXrqJhgSiqmYX5g9f3FjACvkS/no-nothing-480.gif"
+			},
+			{
+				"ten_the_loai": "Trinh Thám",
+				"id_the_loai": "trinh_tham_15679",
+				"image_the_loai": "https://sohanews.sohacdn.com/thumb_w/660/2017/sherlock-holmes-1501144460192.jpg"
+			},
+			{
+				"ten_the_loai": "Lãng Mạn",
+				"id_the_loai": "lang_man_35279",
+				"image_the_loai": "https://image1.ictnews.vn/_Files/2019/02/12/b1-nhung-buc-thu-tinh-hay-va-lang-man-valentine-thu-tinh-hay-gui-em-yeu-thu-to-tinh-hay-nhat-thu-tinh-yeu-lang-man-nhat.jpg"
+			}
+		],
+		"tac_gia_data": [
+			{
+				"ten_tac_gia": "Tú Xương",
+				"id_tac_gia": "tu_xuong_127122"
+			},
+			{
+				"ten_tac_gia": "Hồ Xuân Hương",
+				"id_tac_gia": "ho_xuan_huong_49871"
+			}
+		],
+		"truyen_data": [
+			{
+				"id_truyen": "181567_do_ta_khong_do_nang",
+				"ten_truyen": "ĐỘ TA KHÔNG ĐỘ NÀNG",
+				"the_loai_id": "lang_man_35279",
+				"tac_gia_id": "no_name",
+				"cover": "https://i.pinimg.com/originals/3f/9f/84/3f9f84314f6126d3c8b65d620ef2d05d.jpg",
+				"audio_truyen": [
+					{
+						"name": "Phần 1",
+						"link": "https://ia903007.us.archive.org/34/items/DoTaKhongDoNang/Anh%20Duy%20-%20[Radio]%20C%C3%A2u%20chuy%E1%BB%87n%20%C4%91%E1%BB%99%20ta%20kh%C3%B4ng%20%C4%91%E1%BB%99%20n%C3%A0ng%20ph%E1%BA%A7n%202.mp3"
+					},
+					{
+						"name": "Phần 2",
+						"link": "https://ia903007.us.archive.org/34/items/DoTaKhongDoNang/Anh%20Duy%20-%20[Radio]%20C%C3%A2u%20chuy%E1%BB%87n%20%C4%91%E1%BB%99%20ta%20kh%C3%B4ng%20%C4%91%E1%BB%99%20n%C3%A0ng%20ph%E1%BA%A7n%202.mp3"
+					},
+					{
+						"name": "Bài Hát Độ Ta Không Độ Nàng",
+						"link": "https://vnno-vn-5-tf-mp3-s1-zmp3.zadn.vn/dbabd4c8fd8f14d14d9e/1178427305872095003?authen=exp=1586599631~acl=/dbabd4c8fd8f14d14d9e/*~hmac=fa8846faad9b25e17013fb5e2b65fbec"
+					}
+				]
+			}
+		]
+	}
+}
