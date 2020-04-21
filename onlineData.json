@@ -1,6 +1,6 @@
 {
     "Data": {
-        "version": "1.1",
+        "version": "1.0",
         "truyen_data": [
             {
                 "audio_truyen": [
@@ -13,7 +13,7 @@
                         "link": "https://bit.ly/2wJ7JNg"
                     }
                 ],
-                "ten_truyen": "Nghiệp Chướng ",
+                "ten_truyen": "Nghiệp Chướng",
                 "cover": "https://bit.ly/2RLD2hK",
                 "the_loai_id": "1_truyen_ma",
                 "tac_gia_id": "TGID_Quang_A_Tun",
@@ -221,7 +221,7 @@
                         "link": "https://bit.ly/3esvdY4"
                     },
                     {
-                        "name": "phần 3- kết ",
+                        "name": "phần 3- kết",
                         "link": "https://bit.ly/2VHuBFE"
                     }
                 ],
@@ -272,7 +272,7 @@
                         "link": "https://bit.ly/2RKIDVE"
                     }
                 ],
-                "ten_truyen": "Nhà Thờ Tổ ",
+                "ten_truyen": "Nhà Thờ Tổ",
                 "cover": "https://bit.ly/2XPsVMZ",
                 "the_loai_id": "1_truyen_ma",
                 "tac_gia_id": "TGID_MC_Dinh_Soan",
@@ -418,7 +418,7 @@
                         "link": "https://bit.ly/3etR0ia"
                     }
                 ],
-                "ten_truyen": "Hồn Sói ",
+                "ten_truyen": "Hồn Sói",
                 "cover": "https://bit.ly/2RNsteh",
                 "the_loai_id": "1_truyen_ma",
                 "tac_gia_id": "TGID_MC_Viet_Linh",
@@ -461,7 +461,7 @@
                         "link": "https://bit.ly/2VzUbw5"
                     },
                     {
-                        "name": "phần 3-kết ",
+                        "name": "phần 3-kết",
                         "link": "https://bit.ly/34Ny49x"
                     }
                 ],
@@ -718,7 +718,7 @@
                         "link": "https://bit.ly/2KbzO2O"
                     },
                     {
-                        "name": " Phần 3 ",
+                        "name": "Phần 3",
                         "link": "https://bit.ly/2yl7qZy"
                     },
                     {
@@ -802,7 +802,7 @@
                         "link": "https://bit.ly/3cs89XO"
                     },
                     {
-                        "name": "Phần 2- kết ",
+                        "name": "Phần 2- kết",
                         "link": "https://bit.ly/2RLcFZq"
                     }
                 ],
@@ -861,7 +861,7 @@
                         "link": "https://bit.ly/2VCH9xN"
                     }
                 ],
-                "ten_truyen": "Vợ Câm ",
+                "ten_truyen": "Vợ Câm",
                 "cover": "https://bit.ly/3ewpnoL",
                 "the_loai_id": "2_ngon_tinh",
                 "tac_gia_id": "TGID_MC_Bao_Linh",
@@ -891,7 +891,7 @@
                         "link": "https://bit.ly/3aegYml"
                     }
                 ],
-                "ten_truyen": "Ông Xã Ngọt Ngào ",
+                "ten_truyen": "Ông Xã Ngọt Ngào",
                 "cover": "https://bit.ly/2VepddT",
                 "the_loai_id": "2_ngon_tinh",
                 "tac_gia_id": "TGID_MC_Phan_Hong",
@@ -904,7 +904,7 @@
                         "link": "https://bit.ly/3cqaVN1"
                     }
                 ],
-                "ten_truyen": "Ba Người Một Mối Tình ",
+                "ten_truyen": "Ba Người Một Mối Tình",
                 "cover": "https://bit.ly/3cqzNUP",
                 "the_loai_id": "2_ngon_tinh",
                 "tac_gia_id": "TGID_MC_Bao_Linh",
@@ -925,7 +925,7 @@
                         "link": "https://bit.ly/34NPzqu"
                     }
                 ],
-                "ten_truyen": "Từng Chút Đều Là Anh ",
+                "ten_truyen": "Từng Chút Đều Là Anh",
                 "cover": "https://bit.ly/3crOerK",
                 "the_loai_id": "2_ngon_tinh",
                 "tac_gia_id": "TGID_MC_Bao_Linh",
@@ -950,7 +950,7 @@
                         "link": "https://bit.ly/2XJHxxl"
                     }
                 ],
-                "ten_truyen": "Kiếp Đàn Bà ",
+                "ten_truyen": "Kiếp Đàn Bà",
                 "cover": "https://bit.ly/3bknGZp",
                 "the_loai_id": "2_ngon_tinh",
                 "tac_gia_id": "TGID_MC_Bao_Linh",
@@ -1001,7 +1001,7 @@
                         "link": "https://bit.ly/2KdpqHZ"
                     }
                 ],
-                "ten_truyen": "Ngoại Tình ",
+                "ten_truyen": "Ngoại Tình",
                 "cover": "https://bit.ly/2VC8vUS",
                 "the_loai_id": "2_ngon_tinh",
                 "tac_gia_id": "TGID_MC_Bao_Linh",
@@ -1014,7 +1014,7 @@
                         "link": "https://bit.ly/2Vj1HfQ"
                     }
                 ],
-                "ten_truyen": "Anh Hàng Xóm ",
+                "ten_truyen": "Anh Hàng Xóm",
                 "cover": "https://bit.ly/2XLBSXm",
                 "the_loai_id": "2_ngon_tinh",
                 "tac_gia_id": "TGID_MC_Bao_Linh",
@@ -1052,7 +1052,7 @@
                         "link": "https://bit.ly/2ytzWbl"
                     }
                 ],
-                "ten_truyen": "Đánh Thức ",
+                "ten_truyen": "Đánh Thức",
                 "cover": "https://bit.ly/3ex6CS0",
                 "the_loai_id": "2_ngon_tinh",
                 "tac_gia_id": "TGID_MC_Bao_Linh",
@@ -1069,7 +1069,7 @@
                         "link": "https://bit.ly/2KdFklR"
                     }
                 ],
-                "ten_truyen": "Người Yêu Cũ Của Mẹ ",
+                "ten_truyen": "Người Yêu Cũ Của Mẹ",
                 "cover": "https://bit.ly/3bkTahV",
                 "the_loai_id": "2_ngon_tinh",
                 "tac_gia_id": "TGID_MC_Bao_Linh",
@@ -1128,7 +1128,7 @@
                         "link": "https://bit.ly/2XL03oM"
                     }
                 ],
-                "ten_truyen": "Vẫn Cứ Thích Em ",
+                "ten_truyen": "Vẫn Cứ Thích Em",
                 "cover": "https://bit.ly/2XOM15F",
                 "the_loai_id": "2_ngon_tinh",
                 "tac_gia_id": "TGID_MC_Bao_Linh",
@@ -1141,7 +1141,7 @@
                         "link": "https://bit.ly/2VAJFVr"
                     }
                 ],
-                "ten_truyen": "Siêu Quậy Học Đường ",
+                "ten_truyen": "Siêu Quậy Học Đường",
                 "cover": "https://bit.ly/2ROIikL",
                 "the_loai_id": "2_ngon_tinh",
                 "tac_gia_id": "TGID_MC_Bong",
@@ -1154,7 +1154,7 @@
                         "link": "https://bit.ly/2VBF9G9"
                     }
                 ],
-                "ten_truyen": "Hợp Đồng Đặc Biệt ",
+                "ten_truyen": "Hợp Đồng Đặc Biệt",
                 "cover": "https://bit.ly/3ctkURU",
                 "the_loai_id": "2_ngon_tinh",
                 "tac_gia_id": "TGID_MC_Bao_Linh",
@@ -1175,7 +1175,7 @@
                         "link": "https://bit.ly/2Vfqf9s"
                     }
                 ],
-                "ten_truyen": "Tình Yêu Cố Chấp ",
+                "ten_truyen": "Tình Yêu Cố Chấp",
                 "cover": "https://bit.ly/3cv56Oe",
                 "the_loai_id": "2_ngon_tinh",
                 "tac_gia_id": "TGID_MC_Bao_Linh",
@@ -1188,7 +1188,7 @@
                         "link": "https://bit.ly/3ew9HSf"
                     }
                 ],
-                "ten_truyen": "Cô Dâu Mạo Danh ",
+                "ten_truyen": "Cô Dâu Mạo Danh",
                 "cover": "https://bit.ly/2xDGmoo",
                 "the_loai_id": "2_ngon_tinh",
                 "tac_gia_id": "TGID_MC_Bong",
@@ -1217,7 +1217,7 @@
                         "link": "https://bit.ly/2VE0Sx5"
                     }
                 ],
-                "ten_truyen": "Tình Là Biển Lửa ",
+                "ten_truyen": "Tình Là Biển Lửa",
                 "cover": "https://bit.ly/2XL0xv6",
                 "the_loai_id": "2_ngon_tinh",
                 "tac_gia_id": "TGID_MC_Bao_Linh",
@@ -1230,7 +1230,7 @@
                         "link": "https://bit.ly/3cE9yuv"
                     }
                 ],
-                "ten_truyen": "Bồi Thường Ông Chủ ",
+                "ten_truyen": "Bồi Thường Ông Chủ",
                 "cover": "https://bit.ly/3ctlmQ6",
                 "the_loai_id": "2_ngon_tinh",
                 "tac_gia_id": "TGID_MC_Bong",
@@ -1243,7 +1243,7 @@
                         "link": "https://bit.ly/2KaZfBI"
                     }
                 ],
-                "ten_truyen": "Bạn Gái Tổng Tài ",
+                "ten_truyen": "Bạn Gái Tổng Tài",
                 "cover": "https://bit.ly/3cu0qsc",
                 "the_loai_id": "2_ngon_tinh",
                 "tac_gia_id": "TGID_MC_Moc_Nhi",
@@ -1281,7 +1281,7 @@
                         "link": "https://bit.ly/34LgRxr"
                     }
                 ],
-                "ten_truyen": "Hoàng Tử Lạnh Lùng ",
+                "ten_truyen": "Hoàng Tử Lạnh Lùng",
                 "cover": "https://bit.ly/2RMtcfH",
                 "the_loai_id": "2_ngon_tinh",
                 "tac_gia_id": "TGID_MC_Bong",
@@ -1294,7 +1294,7 @@
                         "link": "https://bit.ly/3cnKCqE"
                     }
                 ],
-                "ten_truyen": "Lấy Chồng Giàu ",
+                "ten_truyen": "Lấy Chồng Giàu",
                 "cover": "https://bit.ly/2RNYmTP",
                 "the_loai_id": "2_ngon_tinh",
                 "tac_gia_id": "TGID_MC_Moc_Nhi",
@@ -1349,7 +1349,7 @@
                         "link": "https://bit.ly/2VGpSE3"
                     }
                 ],
-                "ten_truyen": "Tiền Duyên Kiếp Này ",
+                "ten_truyen": "Tiền Duyên Kiếp Này",
                 "cover": "https://bit.ly/3cqLF9j",
                 "the_loai_id": "2_ngon_tinh",
                 "tac_gia_id": "TGID_MC_Bao_Linh",
@@ -1366,7 +1366,7 @@
                         "link": "https://bit.ly/3cEa1Nh"
                     }
                 ],
-                "ten_truyen": "Lấy Nhầm Chồng ",
+                "ten_truyen": "Lấy Nhầm Chồng",
                 "cover": "https://bit.ly/2VBG3Cx",
                 "the_loai_id": "2_ngon_tinh",
                 "tac_gia_id": "TGID_MC_Bao_Linh",
@@ -1379,7 +1379,7 @@
                         "link": "https://bit.ly/2Kh4TCt"
                     }
                 ],
-                "ten_truyen": "Chờ Yêu ",
+                "ten_truyen": "Chờ Yêu",
                 "cover": "https://bit.ly/2VGqQjF",
                 "the_loai_id": "2_ngon_tinh",
                 "tac_gia_id": "TGID_MC_Bao_Linh",
@@ -1396,7 +1396,7 @@
                         "link": "https://bit.ly/2RNGJDB"
                     }
                 ],
-                "ten_truyen": "Cặp Đôi Oan Gia ",
+                "ten_truyen": "Cặp Đôi Oan Gia",
                 "cover": "https://bit.ly/34IT8xU",
                 "the_loai_id": "2_ngon_tinh",
                 "tac_gia_id": "TGID_MC_Bao_Linh",
@@ -1409,7 +1409,7 @@
                         "link": "https://bit.ly/2RNytDC"
                     }
                 ],
-                "ten_truyen": "Coi Chừng Tổng Tài ",
+                "ten_truyen": "Coi Chừng Tổng Tài",
                 "cover": "https://bit.ly/3ac9Qac",
                 "the_loai_id": "2_ngon_tinh",
                 "tac_gia_id": "TGID_MC_Phan_Hong",
@@ -1422,7 +1422,7 @@
                         "link": "https://bit.ly/2VGsYb9"
                     }
                 ],
-                "ten_truyen": "Hôn Nhân Đổ Vỡ ",
+                "ten_truyen": "Hôn Nhân Đổ Vỡ",
                 "cover": "https://bit.ly/3aeS4Dj",
                 "the_loai_id": "2_ngon_tinh",
                 "tac_gia_id": "TGID_MC_Bao_Linh",
@@ -1435,7 +1435,7 @@
                         "link": "https://bit.ly/34K2cCM"
                     }
                 ],
-                "ten_truyen": "Sao Yêu Được Em ",
+                "ten_truyen": "Sao Yêu Được Em",
                 "cover": "https://bit.ly/3ahMMH7",
                 "the_loai_id": "2_ngon_tinh",
                 "tac_gia_id": "TGID_MC_Bao_Linh",
@@ -1478,7 +1478,7 @@
                         "link": "https://bit.ly/3bv6YXz"
                     }
                 ],
-                "ten_truyen": "Phận Gái ",
+                "ten_truyen": "Phận Gái",
                 "cover": "https://bit.ly/2Vh5c6l",
                 "the_loai_id": "2_ngon_tinh",
                 "tac_gia_id": "TGID_MC_Bao_Linh",
@@ -1542,7 +1542,7 @@
                         "link": "https://bit.ly/3cEaAXp"
                     }
                 ],
-                "ten_truyen": "Tôi Là Kiều Nữ ",
+                "ten_truyen": "Tôi Là Kiều Nữ",
                 "cover": "https://bit.ly/3biMh0T",
                 "the_loai_id": "2_ngon_tinh",
                 "tac_gia_id": "TGID_MC_Bao_Linh",
@@ -1555,7 +1555,7 @@
                         "link": "https://bit.ly/2VlkiYR"
                     }
                 ],
-                "ten_truyen": "Anh Là Đàn Ông ",
+                "ten_truyen": "Anh Là Đàn Ông",
                 "cover": "https://bit.ly/3aeSmdn",
                 "the_loai_id": "2_ngon_tinh",
                 "tac_gia_id": "TGID_MC_Bao_Linh",
@@ -1593,11 +1593,11 @@
                         "link": "https://bit.ly/2XMq6Mu"
                     },
                     {
-                        "name": "phần 5-kết ",
+                        "name": "phần 5-kết",
                         "link": "https://bit.ly/2Kcf1Mz"
                     }
                 ],
-                "ten_truyen": "Sống Thử ",
+                "ten_truyen": "Sống Thử",
                 "cover": "https://bit.ly/2VgbGmc",
                 "the_loai_id": "2_ngon_tinh",
                 "tac_gia_id": "TGID_MC_Bao_Linh",
@@ -1635,7 +1635,7 @@
                         "link": "https://bit.ly/34ITWmq"
                     }
                 ],
-                "ten_truyen": "Nơi trái tim thuộc về ",
+                "ten_truyen": "Nơi trái tim thuộc về",
                 "cover": "https://bit.ly/2XKZvj1",
                 "the_loai_id": "3_truyen_ngan",
                 "tac_gia_id": "khong_tac_gia",
@@ -1770,7 +1770,7 @@
                         "link": "https://bit.ly/34P8lxI"
                     }
                 ],
-                "ten_truyen": "Ba phút ",
+                "ten_truyen": "Ba phút",
                 "cover": "https://bit.ly/2xwjk2S",
                 "the_loai_id": "3_truyen_ngan",
                 "tac_gia_id": "khong_tac_gia",
@@ -1809,7 +1809,7 @@
                         "link": "https://bit.ly/3cEc9EL"
                     }
                 ],
-                "ten_truyen": "Tấm vé số ",
+                "ten_truyen": "Tấm vé số",
                 "cover": "https://bit.ly/3ajlgce",
                 "the_loai_id": "3_truyen_ngan",
                 "tac_gia_id": "TGID_Nguyen_Ngoc_Ngan",
@@ -1822,7 +1822,7 @@
                         "link": "https://bit.ly/2XLGAo0"
                     }
                 ],
-                "ten_truyen": "Bốn Thứ Không Được Nợ ",
+                "ten_truyen": "Bốn Thứ Không Được Nợ",
                 "cover": "https://bit.ly/34VXh1T",
                 "the_loai_id": "3_truyen_ngan",
                 "tac_gia_id": "khong_tac_gia",
@@ -1848,7 +1848,7 @@
                         "link": "https://bit.ly/2XRyCts"
                     }
                 ],
-                "ten_truyen": "Im Lặng Là Vàng ",
+                "ten_truyen": "Im Lặng Là Vàng",
                 "cover": "https://bit.ly/2S323FB",
                 "the_loai_id": "3_truyen_ngan",
                 "tac_gia_id": "khong_tac_gia",
@@ -1936,7 +1936,7 @@
                         "link": "https://bit.ly/2wO3aS1"
                     }
                 ],
-                "ten_truyen": "Xin lỗi em chỉ là con đĩ ",
+                "ten_truyen": "Xin lỗi em chỉ là con đĩ",
                 "cover": "https://bit.ly/3crBLUZ",
                 "the_loai_id": "3_truyen_ngan",
                 "tac_gia_id": "khong_tac_gia",
@@ -2012,7 +2012,7 @@
                         "link": "https://bit.ly/2xuCkyM"
                     }
                 ],
-                "ten_truyen": "Vợ già chồng trẻ ",
+                "ten_truyen": "Vợ già chồng trẻ",
                 "cover": "https://bit.ly/3aeU6Dr",
                 "the_loai_id": "3_truyen_ngan",
                 "tac_gia_id": "khong_tac_gia",
@@ -2042,7 +2042,7 @@
                         "link": "https://bit.ly/2xsK04x"
                     }
                 ],
-                "ten_truyen": "Gỡ gạc với cô em họ có chồng ",
+                "ten_truyen": "Gỡ gạc với cô em họ có chồng",
                 "cover": "https://bit.ly/2KfHtxq",
                 "the_loai_id": "3_truyen_ngan",
                 "tac_gia_id": "TGID_Nguyen_Ngoc_Ngan_Lan_Phuong",
@@ -2326,7 +2326,7 @@
                         "link": "https://bit.ly/34RmoCL"
                     }
                 ],
-                "ten_truyen": "Đứa Trẻ Giấy ",
+                "ten_truyen": "Đứa Trẻ Giấy",
                 "cover": "https://bit.ly/3akfK9k",
                 "the_loai_id": "4_trinh_tham",
                 "tac_gia_id": "TGID_Dinh_Huynh",
@@ -2376,7 +2376,7 @@
                         "link": "https://bit.ly/2z8ApjD"
                     }
                 ],
-                "ten_truyen": "Mật mã Da Vinci ",
+                "ten_truyen": "Mật mã Da Vinci",
                 "cover": "https://bit.ly/2RLZgjS",
                 "the_loai_id": "4_trinh_tham",
                 "tac_gia_id": "khong_tac_gia",
@@ -2413,7 +2413,7 @@
                         "link": "https://bit.ly/2VxXALS"
                     }
                 ],
-                "ten_truyen": "Độc Giả Thứ 7 ",
+                "ten_truyen": "Độc Giả Thứ 7",
                 "cover": "https://bit.ly/34JpzfI",
                 "the_loai_id": "4_trinh_tham",
                 "tac_gia_id": "TGID_Audio_Matean",
@@ -2439,7 +2439,7 @@
                         "link": "https://bit.ly/2ymwNKw"
                     }
                 ],
-                "ten_truyen": "Kỳ Án Sherlock Holmes ",
+                "ten_truyen": "Kỳ Án Sherlock Holmes",
                 "cover": "https://bit.ly/34Jrh0w",
                 "the_loai_id": "4_trinh_tham",
                 "tac_gia_id": "khong_tac_gia",
@@ -2549,7 +2549,7 @@
                         "link": "https://bit.ly/3ey4Aks"
                     }
                 ],
-                "ten_truyen": "Mê tông chi quốc ",
+                "ten_truyen": "Mê tông chi quốc",
                 "cover": "https://bit.ly/3bnWcCc",
                 "the_loai_id": "4_trinh_tham",
                 "tac_gia_id": "khong_tac_gia",
@@ -2591,7 +2591,7 @@
                         "link": "https://bit.ly/2VfDTtk"
                     }
                 ],
-                "ten_truyen": " Ba sinh viên",
+                "ten_truyen": "Ba sinh viên",
                 "cover": "https://bit.ly/34LCXzQ",
                 "the_loai_id": "4_trinh_tham",
                 "tac_gia_id": "khong_tac_gia",
@@ -2715,7 +2715,7 @@
                         "link": "https://bit.ly/2VENNn7"
                     }
                 ],
-                "ten_truyen": "Luật Ngầm ",
+                "ten_truyen": "Luật Ngầm",
                 "cover": "https://bit.ly/2RPgQmS",
                 "the_loai_id": "4_trinh_tham",
                 "tac_gia_id": "TGID_MC_Hong_Nhung",
@@ -2943,7 +2943,7 @@
                         "link": "https://bit.ly/3ahHhIy"
                     }
                 ],
-                "ten_truyen": "Người Giải Mã Tử Thi ",
+                "ten_truyen": "Người Giải Mã Tử Thi",
                 "cover": "https://bit.ly/3amwBrY",
                 "the_loai_id": "4_trinh_tham",
                 "tac_gia_id": "TGID_Audio_Matean",
@@ -3037,7 +3037,7 @@
                         "link": "https://bit.ly/2XHxuc1"
                     }
                 ],
-                "ten_truyen": "Tội lỗi không chứng cứ ",
+                "ten_truyen": "Tội lỗi không chứng cứ",
                 "cover": "https://bit.ly/34KegE9",
                 "the_loai_id": "4_trinh_tham",
                 "tac_gia_id": "khong_tac_gia",
@@ -3123,7 +3123,7 @@
                         "link": "https://bit.ly/2yr43jG"
                     }
                 ],
-                "ten_truyen": "Hoá Huyết Thần Công ",
+                "ten_truyen": "Hoá Huyết Thần Công",
                 "cover": "https://bit.ly/2Vka5M9",
                 "the_loai_id": "5_kiem_hiep",
                 "tac_gia_id": "khong_tac_gia",
@@ -3221,7 +3221,7 @@
                         "link": "https://bit.ly/2XM2yHu"
                     }
                 ],
-                "ten_truyen": "Tiêu Thập Nhất Lang ",
+                "ten_truyen": "Tiêu Thập Nhất Lang",
                 "cover": "https://bit.ly/2wSH9S6",
                 "the_loai_id": "5_kiem_hiep",
                 "tac_gia_id": "khong_tac_gia",
@@ -3254,7 +3254,7 @@
                         "link": "https://bit.ly/3aczpYI"
                     }
                 ],
-                "ten_truyen": "Thiên Đăng ",
+                "ten_truyen": "Thiên Đăng",
                 "cover": "https://bit.ly/2KbSqjt",
                 "the_loai_id": "5_kiem_hiep",
                 "tac_gia_id": "khong_tac_gia",
@@ -3320,7 +3320,7 @@
                         "link": "https://bit.ly/2xEqLVE"
                     }
                 ],
-                "ten_truyen": " Uyên ương đao",
+                "ten_truyen": "Uyên ương đao",
                 "cover": "https://bit.ly/3bk0kD3",
                 "the_loai_id": "5_kiem_hiep",
                 "tac_gia_id": "khong_tac_gia",
@@ -3397,7 +3397,7 @@
                         "link": "https://bit.ly/3bkpykY"
                     }
                 ],
-                "ten_truyen": "Liên Thành Quyết ",
+                "ten_truyen": "Liên Thành Quyết",
                 "cover": "https://bit.ly/2VfRr8a",
                 "the_loai_id": "5_kiem_hiep",
                 "tac_gia_id": "khong_tac_gia",
@@ -3515,7 +3515,7 @@
                         "link": "https://bit.ly/3ezAEV5"
                     }
                 ],
-                "ten_truyen": "Điệu Sáo Mê Hồn ",
+                "ten_truyen": "Điệu Sáo Mê Hồn",
                 "cover": "https://bit.ly/34JJewd",
                 "the_loai_id": "5_kiem_hiep",
                 "tac_gia_id": "khong_tac_gia",
@@ -3548,7 +3548,7 @@
                         "link": "https://bit.ly/34PBGbk"
                     }
                 ],
-                "ten_truyen": "Lưu Tinh Hồ Điệp Kiếm ",
+                "ten_truyen": "Lưu Tinh Hồ Điệp Kiếm",
                 "cover": "https://bit.ly/3bm8XNB",
                 "the_loai_id": "5_kiem_hiep",
                 "tac_gia_id": "khong_tac_gia",
@@ -3766,7 +3766,7 @@
                         "link": "https://bit.ly/2VfXAkC"
                     },
                     {
-                        "name": "Đừng bận tâm về chuyện tiền bạc P11 ",
+                        "name": "Đừng bận tâm về chuyện tiền bạc P11",
                         "link": "https://bit.ly/3ckXBJU"
                     }
                 ],
@@ -3783,7 +3783,7 @@
                         "link": "https://bit.ly/2XPkbWX"
                     }
                 ],
-                "ten_truyen": "Giám đốc một phút ",
+                "ten_truyen": "Giám đốc một phút",
                 "cover": "https://bit.ly/3acGrg4",
                 "the_loai_id": "6_kinh_doanh",
                 "tac_gia_id": "khong_tac_gia",
@@ -4624,7 +4624,7 @@
                         "link": "https://bit.ly/2yp6NON"
                     }
                 ],
-                "ten_truyen": "Trị vì vương quốc ",
+                "ten_truyen": "Trị vì vương quốc",
                 "cover": "https://bit.ly/2z5Vona",
                 "the_loai_id": "8_dong_luc",
                 "tac_gia_id": "khong_tac_gia",
@@ -4683,7 +4683,7 @@
                         "link": "https://bit.ly/2yuefIb"
                     }
                 ],
-                "ten_truyen": "Từ tốt đến vĩ đại ",
+                "ten_truyen": "Từ tốt đến vĩ đại",
                 "cover": "https://bit.ly/2Vjn2pF",
                 "the_loai_id": "8_dong_luc",
                 "tac_gia_id": "khong_tac_gia",
@@ -5780,7 +5780,7 @@
                         "link": "https://bit.ly/2ROsP48"
                     }
                 ],
-                "ten_truyen": "Ngôi nhà trống không ",
+                "ten_truyen": "Ngôi nhà trống không",
                 "cover": "https://bit.ly/2RPQQYy",
                 "the_loai_id": "12_kinh_dien",
                 "tac_gia_id": "khong_tac_gia",
@@ -5845,7 +5845,7 @@
                         "link": "https://bit.ly/2VBwH9O"
                     }
                 ],
-                "ten_truyen": "Giải ngải ký audio ",
+                "ten_truyen": "Giải ngải ký audio",
                 "cover": "https://bit.ly/3bkjTvf",
                 "the_loai_id": "12_kinh_dien",
                 "tac_gia_id": "TGID_Tong_Mat_Than",
@@ -5957,7 +5957,7 @@
                         "link": "https://bit.ly/3eq7rMi"
                     }
                 ],
-                "ten_truyen": "Con Quỷ Già ",
+                "ten_truyen": "Con Quỷ Già",
                 "cover": "https://bit.ly/2VhwNV6",
                 "the_loai_id": "12_kinh_dien",
                 "tac_gia_id": "khong_tac_gia",
@@ -6046,7 +6046,7 @@
                         "link": "https://bit.ly/2VIHRcO"
                     }
                 ],
-                "ten_truyen": "Quỷ Môn Thiên Sư ",
+                "ten_truyen": "Quỷ Môn Thiên Sư",
                 "cover": "https://bit.ly/3bkGU0X",
                 "the_loai_id": "12_kinh_dien",
                 "tac_gia_id": "TGID_Mo_Kim_Quyet",
@@ -6072,7 +6072,7 @@
                         "link": "https://bit.ly/2XJB8Sz"
                     }
                 ],
-                "ten_truyen": "Công việc sau cùng ",
+                "ten_truyen": "Công việc sau cùng",
                 "cover": "https://bit.ly/3ewnmZB",
                 "the_loai_id": "12_kinh_dien",
                 "tac_gia_id": "TGID_Sherlock_Holmes",
@@ -6122,7 +6122,7 @@
                         "link": "https://bit.ly/2Ki03Vz"
                     }
                 ],
-                "ten_truyen": "Truyện pháp sư Việt Nam xưa ",
+                "ten_truyen": "Truyện pháp sư Việt Nam xưa",
                 "cover": "https://bit.ly/2RJUaEE",
                 "the_loai_id": "12_kinh_dien",
                 "tac_gia_id": "TGID_Dai_Nam_di_truyen",
@@ -6423,7 +6423,7 @@
                         "link": "https://bit.ly/2xEwyul"
                     }
                 ],
-                "ten_truyen": "Cơm thầy cơm cô ",
+                "ten_truyen": "Cơm thầy cơm cô",
                 "cover": "https://bit.ly/2ROOfOK",
                 "the_loai_id": "12_kinh_dien",
                 "tac_gia_id": "TGID_Vu_Trong_Phung",
@@ -6432,172 +6432,172 @@
         ],
         "tac_gia_data": [
             {
+                "ten_tac_gia": "Nguyễn Ngọc Ngạn",
+                "id_tac_gia": "TGID_Nguyen_Ngoc_Ngan"
+            },
+            {
                 "ten_tac_gia": "Quàng A Tũn",
                 "id_tac_gia": "TGID_Quang_A_Tun"
             },
             {
-                "ten_tac_gia": "MC Mộc Nhi",
-                "id_tac_gia": "TGID_MC_Moc_Nhi"
-            },
-            {
-                "ten_tac_gia": "MC Hoàng Khiêm",
-                "id_tac_gia": "TGID_MC_Hoang_Khiem"
-            },
-            {
-                "ten_tac_gia": "MC Anh Tú",
-                "id_tac_gia": "TGID_MC_Anh_Tu"
-            },
-            {
-                "ten_tac_gia": "MC Nguyễn Huy",
-                "id_tac_gia": "TGID_MC_Nguyen_Huy"
-            },
-            {
-                "ten_tac_gia": "Audio Matean",
-                "id_tac_gia": "TGID_Audio_Matean"
-            },
-            {
-                "ten_tac_gia": "MC Phan Hồng",
-                "id_tac_gia": "TGID_MC_Phan_Hong"
-            },
-            {
-                "ten_tac_gia": "Sherlock Holmes",
-                "id_tac_gia": "TGID_Sherlock_Holmes"
-            },
-            {
-                "ten_tac_gia": "Xuân Hùng",
-                "id_tac_gia": "TGID_Xuan_Hung"
-            },
-            {
-                "ten_tac_gia": "Minh Hoàng",
-                "id_tac_gia": "TGID_Minh_Hoang"
-            },
-            {
-                "ten_tac_gia": "MC Ngọc Lâm",
-                "id_tac_gia": "TGID_MC_Ngoc_Lam"
-            },
-            {
-                "ten_tac_gia": "MC Viết Linh",
-                "id_tac_gia": "TGID_MC_Viet_Linh"
-            },
-            {
-                "ten_tac_gia": "MC Bông",
-                "id_tac_gia": "TGID_MC_Bong"
-            },
-            {
-                "ten_tac_gia": "Anh Duy",
-                "id_tac_gia": "TGID_Anh_Duy"
-            },
-            {
-                "ten_tac_gia": "Vũ Trọng Phụng",
-                "id_tac_gia": "TGID_Vu_Trong_Phung"
+                "ten_tac_gia": "MC Đình Soạn",
+                "id_tac_gia": "TGID_MC_Dinh_Soan"
             },
             {
                 "ten_tac_gia": "Đại Nam dị truyện",
                 "id_tac_gia": "TGID_Dai_Nam_di_truyen"
             },
             {
-                "ten_tac_gia": "MC Bảo Linh",
-                "id_tac_gia": "TGID_MC_Bao_Linh"
+                "ten_tac_gia": "MC Nguyễn Huy",
+                "id_tac_gia": "TGID_MC_Nguyen_Huy"
             },
             {
-                "ten_tac_gia": "Hướng Dương",
-                "id_tac_gia": "TGID_Huong_Duong"
-            },
-            {
-                "ten_tac_gia": "Nguyễn Ngọc Ngạn",
-                "id_tac_gia": "TGID_Nguyen_Ngoc_Ngan"
-            },
-            {
-                "ten_tac_gia": "Nguyễn Ngọc Ngạn, Lan Phương",
-                "id_tac_gia": "TGID_Nguyen_Ngoc_Ngan_Lan_Phuong"
-            },
-            {
-                "ten_tac_gia": "Đình Huỳnh",
-                "id_tac_gia": "TGID_Dinh_Huynh"
-            },
-            {
-                "ten_tac_gia": "Nấm Xuka",
-                "id_tac_gia": "TGID_Nam_Xuka"
-            },
-            {
-                "ten_tac_gia": "MC Tuấn Anh",
-                "id_tac_gia": "TGID_MC_Tuan_Anh"
-            },
-            {
-                "ten_tac_gia": "Mô Kim Quyết",
-                "id_tac_gia": "TGID_Mo_Kim_Quyet"
+                "ten_tac_gia": "MC Anh Tú",
+                "id_tac_gia": "TGID_MC_Anh_Tu"
             },
             {
                 "ten_tac_gia": "Tống Mặt Than",
                 "id_tac_gia": "TGID_Tong_Mat_Than"
             },
             {
+                "ten_tac_gia": "MC Bảo Linh",
+                "id_tac_gia": "TGID_MC_Bao_Linh"
+            },
+            {
                 "ten_tac_gia": "MC Hồng Nhung",
                 "id_tac_gia": "TGID_MC_Hong_Nhung"
             },
             {
-                "ten_tac_gia": "MC Đình Soạn",
-                "id_tac_gia": "TGID_MC_Dinh_Soan"
+                "ten_tac_gia": "Đình Huỳnh",
+                "id_tac_gia": "TGID_Dinh_Huynh"
+            },
+            {
+                "ten_tac_gia": "Minh Hoàng",
+                "id_tac_gia": "TGID_Minh_Hoang"
+            },
+            {
+                "ten_tac_gia": "Nấm Xuka",
+                "id_tac_gia": "TGID_Nam_Xuka"
+            },
+            {
+                "ten_tac_gia": "Audio Matean",
+                "id_tac_gia": "TGID_Audio_Matean"
+            },
+            {
+                "ten_tac_gia": "Vũ Trọng Phụng",
+                "id_tac_gia": "TGID_Vu_Trong_Phung"
+            },
+            {
+                "ten_tac_gia": "Xuân Hùng",
+                "id_tac_gia": "TGID_Xuan_Hung"
+            },
+            {
+                "ten_tac_gia": "Anh Duy",
+                "id_tac_gia": "TGID_Anh_Duy"
+            },
+            {
+                "ten_tac_gia": "Mô Kim Quyết",
+                "id_tac_gia": "TGID_Mo_Kim_Quyet"
+            },
+            {
+                "ten_tac_gia": "MC Viết Linh",
+                "id_tac_gia": "TGID_MC_Viet_Linh"
+            },
+            {
+                "ten_tac_gia": "MC Tuấn Anh",
+                "id_tac_gia": "TGID_MC_Tuan_Anh"
+            },
+            {
+                "ten_tac_gia": "MC Phan Hồng",
+                "id_tac_gia": "TGID_MC_Phan_Hong"
+            },
+            {
+                "ten_tac_gia": "MC Mộc Nhi",
+                "id_tac_gia": "TGID_MC_Moc_Nhi"
+            },
+            {
+                "ten_tac_gia": "Hướng Dương",
+                "id_tac_gia": "TGID_Huong_Duong"
+            },
+            {
+                "ten_tac_gia": "MC Ngọc Lâm",
+                "id_tac_gia": "TGID_MC_Ngoc_Lam"
+            },
+            {
+                "ten_tac_gia": "MC Hoàng Khiêm",
+                "id_tac_gia": "TGID_MC_Hoang_Khiem"
+            },
+            {
+                "ten_tac_gia": "MC Bông",
+                "id_tac_gia": "TGID_MC_Bong"
+            },
+            {
+                "ten_tac_gia": "Nguyễn Ngọc Ngạn, Lan Phương",
+                "id_tac_gia": "TGID_Nguyen_Ngoc_Ngan_Lan_Phuong"
+            },
+            {
+                "ten_tac_gia": "Sherlock Holmes",
+                "id_tac_gia": "TGID_Sherlock_Holmes"
             }
         ],
         "the_loai_data": [
             {
-                "ten_the_loai": "1_Truyện Ma(TM)",
+                "ten_the_loai": "Truyện Ma",
                 "id_the_loai": "1_truyen_ma",
                 "image_the_loai": "https://github.com/haigiodhh/berlin_public/raw/master/truyen_ma.png"
             },
             {
-                "ten_the_loai": "2_Ngôn Tình(NT)",
+                "ten_the_loai": "Ngôn Tình",
                 "id_the_loai": "2_ngon_tinh",
                 "image_the_loai": "https://github.com/haigiodhh/berlin_public/raw/master/ngon_tinh.png"
             },
             {
-                "ten_the_loai": "3_Truyện Ngắn (TN)",
+                "ten_the_loai": "Truyện Ngắn",
                 "id_the_loai": "3_truyen_ngan",
                 "image_the_loai": "https://github.com/haigiodhh/berlin_public/raw/master/truyen_ngan.png"
             },
             {
-                "ten_the_loai": "4_Trinh Thám(TT)",
+                "ten_the_loai": "Trinh Thám",
                 "id_the_loai": "4_trinh_tham",
                 "image_the_loai": "https://github.com/haigiodhh/berlin_public/raw/master/trinh_tham.png"
             },
             {
-                "ten_the_loai": "5_Kiếm Hiệp(KH)",
+                "ten_the_loai": "Kiếm Hiệp",
                 "id_the_loai": "5_kiem_hiep",
                 "image_the_loai": "https://github.com/haigiodhh/berlin_public/raw/master/kiem_hiep.png"
             },
             {
-                "ten_the_loai": "6_Kinh Doanh(KD)",
+                "ten_the_loai": "Kinh Doanh",
                 "id_the_loai": "6_kinh_doanh",
                 "image_the_loai": "https://github.com/haigiodhh/berlin_public/raw/master/kinh_doanh.png"
             },
             {
-                "ten_the_loai": "7_Dạy Con(DC)",
+                "ten_the_loai": "Dạy Con",
                 "id_the_loai": "7_day_con",
                 "image_the_loai": "https://github.com/haigiodhh/berlin_public/raw/master/day_con.png"
             },
             {
-                "ten_the_loai": "8_Động Lực(DL)",
+                "ten_the_loai": "Động Lực",
                 "id_the_loai": "8_dong_luc",
                 "image_the_loai": "https://github.com/haigiodhh/berlin_public/raw/master/dong_luc.png"
             },
             {
-                "ten_the_loai": "9_Làm Giàu(LG)",
+                "ten_the_loai": "Làm Giàu",
                 "id_the_loai": "9_lam_giau",
                 "image_the_loai": "https://github.com/haigiodhh/berlin_public/raw/master/lam_giau.png"
             },
             {
-                "ten_the_loai": "10_Quản Trị(QT)",
+                "ten_the_loai": "Quản Trị",
                 "id_the_loai": "10_quan_tri",
                 "image_the_loai": "https://github.com/haigiodhh/berlin_public/raw/master/quan_tri.png"
             },
             {
-                "ten_the_loai": "11_Phật Pháp(PP)",
+                "ten_the_loai": "Phật Pháp",
                 "id_the_loai": "11_phat_phap",
                 "image_the_loai": "https://github.com/haigiodhh/berlin_public/raw/master/phat_phap.png"
             },
             {
-                "ten_the_loai": "12_Kinh Điển(KD)",
+                "ten_the_loai": "Kinh Điển",
                 "id_the_loai": "12_kinh_dien",
                 "image_the_loai": "https://github.com/haigiodhh/berlin_public/raw/master/kinh_dien.png"
             }
