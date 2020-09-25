@@ -1,0 +1,328 @@
+ILeadSDK Client Access Document
+1 Introduction
+1.1 Introduction to SDK package functions
+The SDK package encapsulates the user center system, which has the following functional interfaces
+log in
+registered
+Secret security
+1.2 Software and hardware support
+2 Installation
+2.1 Download SDK
+Download the SDK to the specified address
+2.2 Unzip SDK
+Unzip the downloaded SDK, you can get a toolkit IleadSDK.framework and a IleadSDK.bundle.
+3 Use common functions in SDK
+3.1 Reference resources
+Right-click on your project directory and select Add Files to "XXX", and select IleadSDK.bundle in the pop-up window. It is recommended
+Check Copy items into destination group’s folder, select Create groups for any added
+folder, and then set the target.
+3.2 Introduce framework
+Right-click in your project directory and select Add Files to “XXX”, and select
+Choose IleadSDK.framework, FBAudienceNetwork.framework, AdSupport.framework to
+And libz.dylib, it is recommended to check Copy items into destination group’s folder and select Create
+groups for any added folder, and then set the target.
+note:
+Finally, you need to find the option Other Linker Flags under the Build Settings tab of your project target.
+Set to -ObjC
+Now that the preparations are complete, you can start to initialize the SDK and use the SDK login interface
+3.3 Initialize SDK
+The SDK needs to be initialized before using the SDK. The SDK is initialized mainly to set up basic application information, such as
+APPID, APPKEY and other information are filled in or returned when the application is created. The interface information is written in the Demo as follows
+In AppDelegate.m, it must be written after [self.window makeKeyAndVisible];.
+As shown below:
+-(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions
+:(NSDictionary *)launchOptions
+{
+// Override point for customization after application launch.
+self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bound
+s]];
+self.window.backgroundColor = [UIColor whiteColor];
+self.viewController = [[ViewController alloc] init];
+self.window.rootViewController = self.viewController;
+[self.window makeKeyAndVisible];
+[IleadSDK sharedInstance].serviceArea = ChinaService;
+[IleadSDK sharedInstance].clientLanguage = zhCN_Language;
+[[IleadSDK sharedInstance] setIsShowLog:YES];
+[[IleadSDK sharedInstance] setAppID:71 appKey:@"ei2hfs9e83qmc92jdz01a"];
+[[IleadSDK sharedInstance] setIsPushLoginViewWhenLogout:YES];
+[[IleadSDK sharedInstance] Login];
+return YES;
+}
+among them,
+1. [IleadSDK sharedInstance].serviceArea = ChinaService;;
+Set the service area of ​​the SDK [Note: The default is to select the service area according to the SDK language], if you want to set it, it must be set at the beginning of the SDK
+Only the first setting of initialization can take effect [ie: set before calling setAppID].
+2. [IleadSDK sharedInstance].clientLanguage = zhCN_Language;;
+Set SDK client language [Note: Default device language], if you want to set it, you must initialize it in the SDK.
+3. [[IleadSDK sharedInstance] setIsShowLog:YES];;
+Set whether to print the log.
+4. [[IleadSDK sharedInstance] setAppID:71 appKey:@"ei2hfs9e83qmc92jdz01a"];
+Set your appID and appKey.
+5. [[IleadSDK sharedInstance] setIsPushLoginViewWhenLogout:YES];
+Set whether to pop up the login interface after logout.
+3.4 Use the authorization function in the SDK
+3.4.1 Login
+Click the login button interface as follows:
+/**
+* Open the login interface, and automatically log in if the account password has been saved
+*/
+-(void)Login;
+You only need to register to receive the callback information during initialization.
+Note: This method will be called back only when the login is successful. The function name of the callback function SwitchToGameMainView can be self-defined)
+Examples are as follows:
+[[NSNotificationCenter defaultCenter] addObserver:self
+selector:@selector(SwitchToGameMainVi
+ew)
+name:@"LoginSuccessToGame"
+object:nil];
+And implement the method
+-(void) SwitchToGameMainView
+{
+//After logging in successfully, enter the user center (ie ILead community)
+UserCenter *usercenter = [[UserCenter alloc] init];
+self.window.rootViewController = usercenter;
+}
+3.4.2 Logout
+The logout operation is a user behavior and cannot be performed directly. You can monitor the operation after the logout event is executed, only during initialization
+Registration notification accept callback information.
+Note: This method will be called back only when the logout is successful, the callback function Logout function name can be defined by yourself
+Examples are as follows:
+[[NSNotificationCenter defaultCenter] addObserver:self
+selector:@selector(Logout)
+name:@"LogoutSuccess"
+object:nil];
+And implement the method:
+-(void) Logout
+{
+exit(0);
+}
+Note: If you do not need to automatically pop up the login interface after logging out, please execute it in AppDelegate
+[[IleadSDK sharedInstance] setIsPushLoginViewWhenLogout:NO]
+3.4.3 Close the SDK window
+The operation of closing the SDK window is a user action and must not be performed directly. You can monitor the operation after the closing of the SDK window event is executed.
+You need to register for notification to receive callback information during initialization.
+Note: This method will be called back only after the shutdown is successful, the callback function ExitSDKView function name can be self-defined)
+Examples are as follows:
+[[NSNotificationCenter defaultCenter] addObserver:self
+selector:@selector(ExitSDKView)
+name:@"CloseSDKView"
+object:nil];
+And implement the method:
+-(void) ExitSDKView
+{
+[viewController setIsExitSDK:YES];
+NSLog(@"exit sdk view...");
+}
+3.4.4 Modify user name callback
+Register to notify when the SDK is initialized to accept the callback information. After the user successfully changes the user name, call back this method
+(Note: The callback function ChangeUsernameSuccess is implemented by a third party, and the function name can be defined by yourself).
+[[NSNotificationCenter defaultCenter] addObserver:self
+selector:@selector(ChangeUsernameSucc
+ess)
+name:@"ChangeUsernameSuccess"
+object:nil];
+3.4.5 Enter the login interface
+Call the [[IleadSDK sharedInstance] Login] method to enter the login page (the login page contains the interface of the registration page
+And forgot password/account page interface)
+Examples are as follows:
+-(void) UserLogin
+{
+[[IleadSDK sharedInstance] Login];
+}
+3.4.6 Get information fields
+There are four information fields provided by the SDK, namely openID, proof, username, and UUID, as shown below:
+/**
+* OpenID and proof are used together
+*/
+@property (nonatomic, readonly) NSString *openID;
+@property (nonatomic, readonly) NSString *proof;
+/**
+* uuid and uuidProof are used together
+*/
+@property (nonatomic, readonly) NSString *UUID;
+@property (nonatomic, readonly) NSString *UUIDProof;
+@property (nonatomic, readonly) NSString *username;
+The openID field stores a unique identifier returned by the server after the user logs in successfully
+Note: The openID returned under different appIDs may be duplicated. It is recommended to use uuid when the appID is reused;
+The UUID field has the same function as openID, but it guarantees uniqueness under any circumstances;
+The userName field stores the user name of the user;
+The proof field is used for the user role created by the NCLoginModule module after a successful login. This field is used in conjunction with openID
+use;
+The UUIDProof field has the same function as proof, which is used in conjunction with UUID;
+After successful login, we can call these four fields by importing the header file <IleadSDK/IleadSDK.h>.
+Note: The information field can only be obtained after successful login
+Obtain the openID field through the interface [[IleadSDK sharedInstance] openID];
+The proof field can be obtained through the interface [[IleadSDK sharedInstance] proof];
+The UUID field can be obtained through the interface [[IleadSDK sharedInstance] UUID];
+UUIDProof field can be obtained through the interface [[IleadSDK sharedInstance] UUIDProof];
+The username field can be obtained through the interface [[IleadSDK sharedInstance] username].
+3.4.7 Design an interface button
+After successful login, we need to design an interface button "ilead community" in the main interface of the game. In the callback event of the button, we
+Call the [[IleadSDK sharedInstance] ILeadCommunity] interface to enter the community, the main page of the community contains the modified secret
+Three interfaces: password, user name modification, and secret security management;
+Examples are as follows:
+-(void) UserCenter
+{
+[[IleadSDK sharedInstance] ILeadCommunity];
+}
+3.4.8 Bind account
+In the game, if the user logs in as a guest, he can use the binding interface in the SDK to bind the guest information to the platform account. With
+The body usage method is as follows:
+Set an interface button "binding" in the main interface of the game, and call the SDK party in the callback event of the button
+Method [[IleadSDK sharedInstance] BindTourists] Enter SDK binding page
+
+, Users can use the default
+You can also enter the account number and the corresponding password by yourself, and finally click the "bind button" to perform the binding operation.
+Note: Before using this interface, you must register the bound notification callback information:
+[[NSNotificationCenter defaultCenter] addObserver:self
+selector:@selector(BindBack)
+name:@"BindAccountSuccess"
+object:nil];
+The callback method BindBack is defined by the game party. In this method, developers can use the interface described in 3.4.4 above.
+口 [[IleadSDK sharedInstance] UUID] to obtain the required unique identifier.
+3.4.9 Third-party login
+To achieve third-party login, you need to import the header file <IleadSDK/IleadSDK.h> and call the interface
+口 [[IleadSDK sharedInstance] TPLogin: ID Platform: platform], where the ID is third-party authentication
+The openID returned after success.
+As follows:
+/**
+* Third-party platform login interface
+*
+* @param ID openID
+* @param platform platform name
+*/
+-(void)TPLogin:(NSString*)ID Platform:(NSString*)platform;
+3.4.10 TalkingData related
+TalkingData is a mobile application statistical analysis platform. It is a "real-time, stable,
+Reliable" mobile Internet application statistical analysis service, dedicated to helping you optimize applications more effectively and increase revenue. Here is a list of
+Series of TalkingData methods for calling.
+To call the TalkingData interface, you need to import the header file <IleadSDK/IleadSDK.h> and call the interface
+[[IleadSDK sharedInstance] TalkingDataServerStart: appKey] (where appKey is the current
+Application id) to start TalkingData service.
+As follows:
+/**
+* @method sessionStarted:withChannelId:
+* To initialize the statistics instance, please call in the application:didFinishLaunchingWithOptions: method
+* @param appKey The unique identifier of the application, which is registered in the statistics background
+* @param channelId(optional) channel name, such as "app store"
+*/
+-(void)TalkingDataServerStart:(NSString *)appKey :(NSString *)channelId
+After starting TalkingData, you can also call the following functions as needed.
+/**
+* @method TalkingDataOpenDebugLog:
+* Whether to open the debug log
+* @param isOpen
+*/
+-(void)TalkingDataOpenDebugLog:(BOOL) isOpen
+/**
+* @method TalkingDataGetDeviceID
+* Get the DeviceID used by TalkingData
+* @return DeviceID
+*/
+-(NSString *)TalkingDataGetDeviceID
+/**
+* @method TalkingDataExceptionReportEnabled
+* Whether to capture program crash records (optional)
+* @param enable default is YES
+* If you need to record the program crash log by yourself, please set the value to NO and call sessionStarted
+:withChannelId: Call this function before
+*/
+-(void)TalkingDataExceptionReportEnabled:(BOOL)enable
+/**
+* @method TalkingDataSignalReportEnabled
+* Whether to capture abnormal signals (optional)
+* @param enable default is NO
+* If you need to turn on the abnormal signal capture function, please set the value to YES, and call sessionStart
+ed:withChannelId: Call this function before
+*/
+-(void)TalkingDataSignalReportEnabled:(BOOL)enable
+/**
+* Correct the user's regional information TalkingData uses the MCC (mobile country code) collected in the device by default
+To determine the user's area with the user's network IP, data related to the area will have certain errors.
+* @param latitude longitude
+* @param longitude latitude
+*/
+-(void)TalkingDataSetPosition:(double)latitude :(double)longitude
+/**
+* @method setLogEnabled
+* Statistics log switch (optional)
+* @param enable is on by default
+*/
+-(void)TalkingDataLogEnabled:(BOOL)enable
+/**
+* @method trackEvent:label:parameters
+* Count custom events with secondary parameters, the number of parameters in a single call cannot exceed 10
+* @param eventId event name (custom)
+* @param eventLabel event label (optional) (custom)
+* @param parameters event parameters (optional) (key only supports NSString, value supports NSString and NSNu
+mber)
+*/
+-(void)TalkingDataTrackEvent:(NSString *)eventId
+label:(NSString *)eventLabel
+parameters:(NSDictionary *)parameters
+/**
+* TalkingData is a service that helps developers count the number of visits and duration of each page in the application. When the page is opened
+transfer.
+* @param pageName custom page name format: supports a mixture of English, numbers, and underscores within 64 characters
+name. Please be careful not to add spaces or other escape characters in development.
+*/
+-(void)TalkingDataOnPageBegin:(NSString *)pageName
+/**
+* TalkingData is a service that helps developers count the number of visits and duration of each page in the application. Adjust when the page is closed
+use.
+*
+* @param pageName Customized page name Format: supports mixed names of English, numbers, and underscores within 64 characters
+Called. Please be careful not to add spaces or other escape characters in development.
+*/
+-(void)TalkingDataOnPageEnd:(NSString *)pageName
+/**
+* @method setGlobalKV:value:
+* Add a global field, the content here will be taken with every custom thing and sent to the server. In other words, if your custom
+Each item in the event needs to bring the same content, such as user name, etc., you can add it
+* @param key The key of the custom event, if there is the same key when creating the custom later, it will be overwritten
+Cover, the content of the same key in the global
+* @param value here is NSObject type, or NSString or NSNumber type
+*/
+-(void)TalkingDataSetGlobalKV:(NSString*)key value:(id)value
+/**
+* @method removeGlobalKV:
+* Delete global data
+* @param key custom event key
+*/
+-(void)TalkingDataRemoveGlobalKV:(NSString*)key
+3.4.11 Advertising module
+The advertising module mainly helps application developers use advertising to promote their mobile and tablet applications and make money through the application.
+To call the advertising module, you need to import the header file <IleadSDK/IleadSDK.h> first, and then access the corresponding according to your needs
+advertisment. Currently Facebook's ads are still being tested.
+To call banner ads, call the following methods:
+[[IleadSDK sharedInstance] initMobileBannerWithPlatform:platform adId:adId vie
+wControl:viewControl params:params];
+Among them, the platform currently only provides two types of "Google" and "Facebook", adId is the id of the advertisement, note:
+The id of the interstitial ad is different from the id of the banner ad. viewControl is to resume after sending the user to the ad placement
+Which UIViewController. Finally, params is an NSDictionary type, which contains two optional parameters, point and
+size, where point is the CGPoint type, which is the starting position of the advertisement, and the size varies according to different platforms. size is
+The NSString type mainly has the following parameters to choose from.
+/*------Google ad size------*/
+GoogleBanner320x50 //Standard banner
+GoogleBanner320x100 //Large banner
+GoogleBanner320x250 //IAB medium rectangle
+GoogleBanner468x60 //IAB full-size banner
+GoogleBanner728x90 //IAB Leaderboard Ad
+/*------Facebook ad size------*/
+FacebookBanner320x50 //Standard banner
+If you want to call interstitial ads, you must choose the following methods:
+[[IleadSDK sharedInstance] initMobileInterstitialWithPlatform:platform adId:ad
+Id viewControl:viewControl];
+Among them, the platform currently only provides two types of "Google" and "Facebook", adId is the id of the advertisement, note:
+The id of the interstitial ad is different from the id of the banner ad. viewControl is to resume after sending the user to the ad placement
+Which UIViewController.
+In addition, when the advertisement loads successfully and fails, corresponding notifications will be issued, and the user can use the observer mode to monitor to enter
+Perform the corresponding processing.
+@"GoogleBannerLoadComplete" //Notification issued by Google banner ad loading successfully
+@"GoogleBannerLoadError" //Notification issued by Google banner ad loading failure
+@"GoogleInterstitialLoadComplete" //Notification sent by Google Interstitial Ads successfully loaded
+@"GoogleInterstitialLoadError" //Notification issued by Google Interstitial Ads failed to load
+@"FacebookBannerLoadComplete" //Notification issued by Facebook banner ad loading successfully
+@"FacebookBannerLoadError" //Notification issued by Facebook banner ad loading failure
+@"FacebookInterstitialLoadComplete" //Notification issued by Facebook interstitial ads successfully loaded
+@"FacebookInterstitialLoadError" //Notification issued by Facebook interstitial ad loading failure
